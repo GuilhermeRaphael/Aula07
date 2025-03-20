@@ -35,7 +35,7 @@ public class TesteLivro {
         System.out.println("Digite o autor: ");
         meuLivro.setAutor(leitor.nextLine());
         System.out.println("br.com.etechas.models.Editora: ");
-        meuLivro.setEditora("editoraRocco");
+        meuLivro.setEditora(editoraRocco);
         System.out.println("Preço: ");
         meuLivro.setPreco(leitorNum.nextDouble());
         System.out.println("Resumo:");
@@ -59,7 +59,7 @@ public class TesteLivro {
         Livro livroDaFatima = new Livro("Harry Potter");
         livroDaFatima.setTitulo("Harry Potter");
         livroDaFatima.setAutor("J.K.");
-        livroDaFatima.setEditora("editoraRocco");
+        livroDaFatima.setEditora(editoraRocco);
         livroDaFatima.paginas = 208;
         livroDaFatima.resumo= "É um bruxo...";
         livroDaFatima.tipoCapa = TipoCapaEnum.COMUM;
